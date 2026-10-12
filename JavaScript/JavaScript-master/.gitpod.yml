@@ -8,4 +8,4 @@ github:
     pullRequestsFromForks: true
 
 tasks:
-  - init: npm install
+  - init: pnpm install
