@@ -14,10 +14,14 @@
   },
   "scripts": {
     "test": "jest --no-cache",
-    "style": "npx prettier . --write",
-    "check-style": "npx prettier . --check",
+    "style": "pnpm dlx prettier . --write",
+    "check-style": "pnpm dlx prettier . --check",
     "prepare": "husky install"
   },
   "author": "TheAlgorithms",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.2",
+  "pnpm": {
+    "overrides": {}
+  }
 }

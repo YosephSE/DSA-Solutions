@@ -6,8 +6,8 @@
   "scripts": {
     "test": "vitest run",
     "test-watch": "vitest",
-    "style": "npx prettier . --write",
-    "check-style": "npx prettier . --check",
+    "style": "pnpm dlx prettier . --write",
+    "check-style": "pnpm dlx prettier . --check",
     "prepare": "husky install"
   },
   "author": "TheAlgorithms",
@@ -16,10 +16,14 @@
     "globby": "^13.2.2",
     "husky": "^8.0.3",
     "prettier": "^3.0.3",
-    "vitest": "^1.2.1",
-    "@vitest/coverage-v8": "^1.2.1"
+    "vitest": "^4.1.11",
+    "@vitest/coverage-v8": "^4.1.11"
   },
   "engines": {
     "node": ">=20.6.0"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "pnpm": {
+    "overrides": {}
   }
 }

@@ -106,26 +106,26 @@ Please refrain from using `console` in your implementation AND test code.
 First, you should install all dependencies using:
 
 ```bash
-npm install
+pnpm install
 ```
 
 You can (and should!) run all tests locally before committing your changes:
 
 ```bash
-npm test
+pnpm test
 ```
 
 If you want to save some time and just run a specific test:
 
 ```bash
 # This will run any test file where the filename contains "koch" (no need to specify folder path)
-npm test -- koch
+pnpm test -- koch
 ```
 
 You can also start Vitest in "watch" mode:
 
 ```bash
-npm run test-watch
+pnpm run test-watch
 ```
 
 This will run all tests and watch source and test files for changes. When a change is made, the tests will run again.
@@ -136,7 +136,7 @@ For consistency and readability, we require that new submissions follow the [Pre
 Before committing, please format your code automatically using Prettier by running the following command:
 
 ```bash
-npm run style
+pnpm run style
 ```
 
 A few (but not all) of the things to keep in mind:
